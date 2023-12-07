@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" type="module"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Weather Forecast</title>
   </head>
   <body>
   <h1>Weather Dashboard</h1>
@@ -17,7 +17,18 @@
       <button class="search-btn">Search</button>
       <div class="separator"></div>
       <button class="location-btn">Use Current Location</button>
+   
+
     </div>
+      
+    <div class="switch-container">
+      <div class="tri-state-toggle">
+        <input  class="button" type="radio" name="toggle" id="one" placeholder="as" title="12" />
+        <input class="button" type="radio" name="toggle" id="two" placeholder="as" title="12"  />
+        <input class="button" type="radio" name="toggle" id="three" placeholder="as" title="12"  />
+      </div>
+    </div>
+  
     <div class="weather-data">
       <div class="current-weather">
         <div class="details">
@@ -61,6 +72,13 @@
             <h4>Wind: _ M/S</h4>
             <h4>Humidity: _%</h4>
           </li>  <li class="card">
+            <h3>( ______ )</h2>
+              <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+            <h4>Temp: _C</h4>
+            <h4>Wind: _ M/S</h4>
+            <h4>Humidity: _%</h4>
+          </li>
+          <li class="card">
             <h3>( ______ )</h2>
               <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
             <h4>Temp: _C</h4>

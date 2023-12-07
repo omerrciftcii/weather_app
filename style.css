@@ -123,3 +123,28 @@ h1{
     max-width: 70px;
     margin: 5px 0 -12px 0;
 }
+
+.tri-state-toggle {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 50px;
+  }
+  input {
+    height: 30px;
+    width: 30px;
+    appearance: none;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+  }
+  #one {
+    opacity: 1;
+  }
+  .switch-container{
+    display: flex;
+    width: 300px;
+  justify-content: center;
+  align-items: center;
+  }
